@@ -1,0 +1,212 @@
+const help = (prefix) => {
+	return `
+「 *EDI-BOT2* 」
+
+◪ *informações do PROPRIETÁRIO*
+  ❏ Prefix: 「  ${prefix}  」
+  ❏ Creador : ZEXY MZH
+
+❏Tradutor: Edilson-kun
+
+  ❏ YOUTUBE: https://youtube.com/channel/UC0adT-_E44gWb9DhnWWPC8g
+          *regras*
+ANTES DE USAR O BOT VOCÊ DEVE SE REGISTAR PRIMEIRO E NÃO SPAM
+
+◪ *sobre o BOT*
+  │
+  ├─ ❏ ${prefix}informações
+  ├─ ❏ ${prefix}owner
+  ├─ ❏ ${prefix}listas de bloquados
+  ├─ ❏ ${prefix}lista do chat
+  ├─ ❏ ${prefix}ping
+  └─ ❏ ${prefix}bugue
+◪ *FAZER*
+  │
+  ├─ ❏ ${prefix}figurinha
+  ├─ ❏ ${prefix}figurinhagif
+  ├─ ❏ ${prefix}shota
+  ├─ ❏ ${prefix}bpink
+  ├─ ❏ ${prefix}marvellogo
+  ├─ ❏ ${prefix}snowwrite
+  ├─ ❏ ${prefix}3dtexto
+  ├─ ❏ ${prefix}ninjalogo
+  ├─ ❏ ${prefix}water
+  ├─ ❏ ${prefix}firetext
+  ├─ ❏ ${prefix}logolobo
+  ├─ ❏ ${prefix}logolobo2
+  ├─ ❏ ${prefix}phlogo
+  ├─ ❏ ${prefix}glitch
+  ├─ ❏ ${prefix}neonlogo
+  ├─ ❏ ${prefix}neonlogo2
+  ├─ ❏ ${prefix}leãologo
+  ├─ ❏ ${prefix}jokerlogo
+  ├─ ❏ ${prefix}shadow
+  ├─ ❏ ${prefix}burnpaper
+  ├─ ❏ ${prefix}café
+  ├─ ❏ ${prefix}papel amoroso
+  ├─ ❏ ${prefix}bloco de madeira
+  ├─ ❏ ${prefix}qowheart
+  ├─ ❏ ${prefix}mutgrass
+  ├─ ❏ ${prefix}submarino
+  ├─ ❏ ${prefix}woodenboards
+  ├─ ❏ ${prefix}lobometal
+  ├─ ❏ ${prefix}metalictglow
+  ├─ ❏ ${prefix}8bit
+  ├─ ❏ ${prefix}fogotexto
+  ├─ ❏ ${prefix}3dtexto
+  ├─ ❏ ${prefix}ttp
+  ├─ ❏ ${prefix}herrypotter
+  ├─ ❏ ${prefix}pubglogo
+  └─ ❏ ${prefix}citações
+◪ *MEDIA*
+  │
+  ├─ ❏ ${prefix}tendência
+  ├─ ❏ ${prefix}aleatóriokpop
+  └─ ❏ ${prefix}ytpesquisa
+◪ *EDUCAÇÃO*
+  │
+  ├─ ❏ ${prefix}wiki
+  ├─ ❏ ${prefix}wikien
+  ├─ ❏ ${prefix}null
+  ├─ ❏ ${prefix}citações
+  ├─ ❏ ${prefix}citações2
+  └─ ❏ ${prefix}artinama
+◪ *MAGIC SHELL*
+  │
+  ├─ ❏ ${prefix}apakah
+  ├─ ❏ ${prefix}kapankah
+  ├─ ❏ ${prefix}taxa
+  ├─ ❏ ${prefix}game
+  └─ ❏ ${prefix}bisakah
+◪ *DOWNLOADER*
+  │
+  ├─ ❏ ${prefix}images
+  ├─ ❏ ${prefix}ytmp3
+  ├─ ❏ ${prefix}ytmp4
+  ├─ ❏ ${prefix}tiktok
+  └─ ❏ ${prefix}joox
+◪ *CONVERTER*
+  │
+  ├─ ❏ ${prefix}toimg
+  └─ ❏ ${prefix}tomp3
+◪ *MEME*
+  │
+  ├─ ❏ ${prefix}meme
+  └─ ❏ ${prefix}memeindo
+◪ *AUDIO*
+  │
+  ├─ ❏ ${prefix}play
+  └─ ❏ ${prefix}tts
+◪ *MÚSIC*
+  │
+  ├─ ❏ ${prefix}lirik
+  └─ ❏ ${prefix}acorde
+◪ *ISLAM*
+  │
+  └─ ❏ ${prefix}Alcorão
+◪ *STALK*
+  │
+  ├─ ❏ ${prefix}tiktokstalk
+  ├─ ❏ ${prefix}trendtwit
+  └─ ❏ ${prefix}igstalk
+◪ *waifus*
+  │
+  ├─ ❏ ${prefix}neonime
+  ├─ ❏ ${prefix}pokemon
+  ├─ ❏ ${prefix}loli
+  ├─ ❏ ${prefix}waifu
+  ├─ ❏ ${prefix}randomanime
+  ├─ ❏ ${prefix}husbu
+  ├─ ❏ ${prefix}husbu2
+  ├─ ❏ ${prefix}animecry
+  ├─ ❏ ${prefix}esperar
+  ├─ ❏ ${prefix}neko
+  └─ ❏ ${prefix}nekonime
+◪ *18++*
+  │
+  ├─ ❏ ${prefix}randomhentai
+  ├─ ❏ ${prefix}nsfwtrap
+  ├─ ❏ ${prefix}nsfwloli
+  ├─ ❏ ${prefix}nsfwbobs
+  ├─ ❏ ${prefix}nsfwass
+  ├─ ❏ ${prefix}nsfwlowjob
+  └─ ❏ ${prefix}nsfwneko
+◪ *SOSIAL*
+  │
+  ├─ ❏ ${prefix}alay
+  ├─ ❏ ${prefix}gantengcek
+  ├─ ❏ ${prefix}cantikcek
+  ├─ ❏ ${prefix}watak
+  ├─ ❏ ${prefix}hobby
+  ├─ ❏ ${prefix}game
+  ├─ ❏ ${prefix}bucin
+  ├─ ❏ ${prefix}trust
+  ├─ ❏ ${prefix}dare
+  ├─ ❏ ${prefix}mapa
+  ├─ ❏ ${prefix}hilih
+  └─ ❏ ${prefix}simi
+◪ *INFORMASI*
+  │
+  ├─ ❏ ${prefix}bahasa
+  ├─ ❏ ${prefix}kodenegara
+  ├─ ❏ ${prefix}kbbi
+  ├─ ❏ ${prefix}wiki
+  ├─ ❏ ${prefix}wikien
+  ├─ ❏ ${prefix}fakta
+  ├─ ❏ ${prefix}infocuaca
+  ├─ ❏ ${prefix}infogempa
+  ├─ ❏ ${prefix}jadwaltvnow
+  └─ ❏ ${prefix}covid
+◪ *ADMIN GROUP*
+  │
+  ├─ ❏ ${prefix}adicionar
+  ├─ ❏ ${prefix}banir
+  ├─ ❏ ${prefix}abrirgp
+  ├─ ❏ ${prefix}fechargp
+  ├─ ❏ ${prefix}tagme
+  ├─ ❏ ${prefix}tagall
+  ├─ ❏ ${prefix}tagall2
+  ├─ ❏ ${prefix}tagall3
+  ├─ ❏ ${prefix}tagall4
+  ├─ ❏ ${prefix}tagall5
+  ├─ ❏ ${prefix}linkgp
+  ├─ ❏ ${prefix}ownergrup
+  ├─ ❏ ${prefix}hidetag
+  ├─ ❏ ${prefix}setpp
+  ├─ ❏ ${prefix}setname
+  ├─ ❏ ${prefix}setdec
+  ├─ ❏ ${prefix}listadmin
+  ├─ ❏ ${prefix}simih [1/0]
+  ├─ ❏ ${prefix}bem-vindo [1/0]
+  └─ ❏ ${prefix}nsfw [1/0]
+◪ *OWNER*
+  │
+  ├─ ❏ ${prefix}setprefix
+  ├─ ❏ ${prefix}bloquear
+  ├─ ❏ ${prefix}desbloquear
+  ├─ ❏ ${prefix}setppbot
+  ├─ ❏ ${prefix}lista de bloqueados
+  ├─ ❏ ${prefix}lista do chat
+  ├─ ❏ ${prefix}delete
+  ├─ ❏ ${prefix}bc
+  ├─ ❏ ${prefix}bcgc
+  ├─ ❏ ${prefix}clonar
+  └─ ❏ ${prefix}limpar
+◪ *OUTROS*
+  │
+  ├─ ❏ ${prefix}submit
+  ├─ ❏ ${prefix}spamcall
+  ├─ ❏ ${prefix}wame
+  ├─ ❏ ${prefix}virtex
+  ├─ ❏ ${prefix}exe
+  ├─ ❏ ${prefix}qrcode
+  ├─ ❏ ${prefix}afk
+  ├─ ❏ ${prefix}stopwatch
+  ├─ ❏ ${prefix}testime
+  ├─ ❏ ${prefix}emoji
+  ├─ ❏ ${prefix}fml
+  └─ ❏ ${prefix}fml2
+`
+}
+
+exports.help = help
