@@ -41,9 +41,9 @@ $ pkg install ffmpeg
 
 $ pkg install npm 
 
-$ git clone https://github.com/zexymzh708/zxbotv1
+$ git clone https://github.com/edibotv1/bot.git
 
-$ cd zxbot1
+$ cd bot
 
 $ bash install.sh
 
@@ -59,7 +59,7 @@ dan kalo mengaktifkan
 
 Ketik 
 
-$ cd zxbotv1
+$ cd bot
 
 $ node index.js
 

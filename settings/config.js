@@ -1,6 +1,6 @@
 const config = {
-        botName: 'ZexyBOT',
-        ownerName: 'Zexy',
+        botName: 'bot',
+        ownerName: 'edi',
         youtube: 'YOUTUBE_LINK',
         instagram: 'INSTAGRAM_LINK',
 }
